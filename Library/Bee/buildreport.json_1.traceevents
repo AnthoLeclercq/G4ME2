@@ -1,0 +1,617 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1675935329246483, "dur": 324622, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675935329246849, "dur": 3886, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675935329250737, "dur": 30742, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675935329281483, "dur": 224082, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675935329505568, "dur": 64328, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675935329569899, "dur": 1204, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675935329571477, "dur": 12, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1675935329371459, "dur": 116958, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675935329372586, "dur": 52681, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675935329471225, "dur": 4225, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675935329475452, "dur": 12957, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675935329476302, "dur": 11554, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675935329492974, "dur": 1407, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675935329492453, "dur": 1955, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675935329571658, "dur": 260, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1675935329529186, "dur":870, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675935329530066, "dur":165, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1675935329530251, "dur":45, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1675935329530296, "dur":180, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1675935329530485, "dur":546, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675935329531031, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675935329558446, "dur":20, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675935329558466, "dur":111, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675935329558577, "dur":23, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675935329558600, "dur":83, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675935329558683, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675935329558688, "dur":113, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675935329558801, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675935329558808, "dur":96, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675935329558904, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675935329558908, "dur":79, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675935329558987, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675935329558992, "dur":89, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675935329559081, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675935329559085, "dur":84, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675935329559169, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675935329559174, "dur":88, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675935329559263, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675935329559266, "dur":86, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675935329559352, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675935329559356, "dur":84, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675935329559441, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675935329559445, "dur":86, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675935329559531, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675935329559535, "dur":82, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675935329559617, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675935329559622, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675935329559643, "dur":4236, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1675935329530376, "dur":664, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675935329531042, "dur":2348, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675935329533394, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/LinuxPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675935329533399, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675935329534121, "dur":262, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675935329534387, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675935329534586, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675935329535114, "dur":548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675935329535663, "dur":487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1675935329536154, "dur":49, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675935329536766, "dur":579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1675935329537382, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675935329537605, "dur":75, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675935329538344, "dur":961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675935329539455, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675935329539566, "dur":63, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675935329540041, "dur":631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675935329540685, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675935329540764, "dur":32, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675935329540991, "dur":765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675935329541862, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675935329541957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675935329541964, "dur":1306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675935329543414, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675935329543488, "dur":43, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675935329543667, "dur":1555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675935329545407, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675935329545804, "dur":48, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675935329545862, "dur":1011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675935329547099, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675935329547356, "dur":63, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675935329547427, "dur":1344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675935329548925, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675935329549038, "dur":71, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675935329549318, "dur":1558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675935329550998, "dur":767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675935329551769, "dur":36, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675935329552304, "dur":919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675935329553299, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675935329553441, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675935329553449, "dur":804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675935329554423, "dur":449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675935329554876, "dur":36, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675935329555282, "dur":855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675935329556327, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1675935329556517, "dur":72, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675935329556707, "dur":655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1675935329557374, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1675935329557388, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675935329557395, "dur":725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1675935329558195, "dur":247, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675935329530393, "dur":690, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675935329531084, "dur":2359, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675935329533443, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1675935329533616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675935329535567, "dur":646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1675935329536377, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":2, "ts":1675935329536511, "dur":83, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675935329536687, "dur":629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":2, "ts":1675935329537399, "dur":951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675935329538353, "dur":31, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675935329538504, "dur":1198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675935329539880, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675935329540147, "dur":42, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675935329540261, "dur":1210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675935329541611, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675935329541803, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675935329541812, "dur":818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675935329542893, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675935329543095, "dur":41, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675935329543527, "dur":818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675935329544361, "dur":483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675935329544894, "dur":107, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675935329545493, "dur":870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675935329546527, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675935329546648, "dur":38, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675935329546695, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675935329548081, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Pathfinding.Ionic.Zip.Reduced.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675935329548382, "dur":64, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675935329548934, "dur":1233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Pathfinding.Ionic.Zip.Reduced.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675935329550357, "dur":422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675935329550783, "dur":58, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675935329551218, "dur":877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675935329552236, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675935329552468, "dur":53, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675935329552861, "dur":996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675935329553891, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675935329553984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675935329553992, "dur":990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675935329555158, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1675935329555266, "dur":106, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675935329555381, "dur":893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1675935329556498, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1675935329556725, "dur":25, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675935329556914, "dur":1236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1675935329558215, "dur":219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675935329530388, "dur":686, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675935329531074, "dur":2347, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675935329533421, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":3, "ts":1675935329533473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675935329534815, "dur":634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":3, "ts":1675935329535575, "dur":567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1675935329536145, "dur":43, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675935329536783, "dur":765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1675935329537786, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675935329538030, "dur":71, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675935329538319, "dur":935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675935329539439, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675935329539659, "dur":94, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675935329540094, "dur":603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675935329540769, "dur":848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675935329541620, "dur":35, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675935329541746, "dur":755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675935329542637, "dur":1463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675935329544104, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675935329544111, "dur":1356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675935329545680, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675935329545889, "dur":30, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675935329546012, "dur":889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675935329547122, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675935329547264, "dur":84, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675935329547439, "dur":1049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675935329548725, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675935329548913, "dur":57, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675935329549325, "dur":1649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675935329551146, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675935329551467, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675935329551522, "dur":1251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675935329552949, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675935329553188, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675935329553287, "dur":729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675935329554040, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675935329554122, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675935329554327, "dur":817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675935329555345, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1675935329555418, "dur":55, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675935329555607, "dur":705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1675935329556555, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1675935329556710, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675935329556873, "dur":953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1675935329557862, "dur":559, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675935329530395, "dur":693, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675935329531088, "dur":2355, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675935329533444, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1675935329533567, "dur":46, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675935329535638, "dur":543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1675935329536361, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":4, "ts":1675935329536477, "dur":57, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675935329536755, "dur":736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":4, "ts":1675935329537752, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675935329537985, "dur":61, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675935329538437, "dur":674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675935329539252, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675935329539482, "dur":52, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675935329540038, "dur":701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675935329540849, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675935329541033, "dur":50, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675935329541516, "dur":686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675935329542216, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675935329542344, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675935329542383, "dur":879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675935329543402, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675935329543555, "dur":42, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675935329543667, "dur":1441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675935329545264, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675935329545515, "dur":41, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675935329546016, "dur":815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675935329547079, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675935329547316, "dur":52, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675935329547486, "dur":986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675935329548695, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675935329548849, "dur":40, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675935329548937, "dur":713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675935329549666, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675935329549806, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675935329549816, "dur":1075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675935329551101, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675935329551239, "dur":41, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675935329551496, "dur":1243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675935329552910, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675935329553066, "dur":21, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675935329553160, "dur":1158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675935329554480, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675935329554650, "dur":28, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675935329555100, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675935329556275, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1675935329556453, "dur":95, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675935329556704, "dur":853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1675935329557573, "dur":824, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675935329530403, "dur":689, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675935329531092, "dur":2352, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675935329533445, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1675935329533503, "dur":106, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675935329535699, "dur":519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1675935329536401, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":5, "ts":1675935329536494, "dur":58, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675935329536745, "dur":539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":5, "ts":1675935329537300, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/UnityPlayer.so" }}
+,{ "pid":12345, "tid":5, "ts":1675935329537321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675935329537345, "dur":757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/UnityPlayer.so" }}
+,{ "pid":12345, "tid":5, "ts":1675935329538251, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675935329538425, "dur":50, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675935329538585, "dur":1238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675935329540005, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675935329540149, "dur":41, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675935329540320, "dur":1237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675935329541690, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675935329541859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675935329541868, "dur":1245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675935329543273, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675935329543432, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675935329543506, "dur":917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675935329544436, "dur":386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675935329544825, "dur":86, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675935329545465, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675935329546665, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675935329546970, "dur":58, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675935329547137, "dur":1345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675935329548705, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675935329548896, "dur":69, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675935329549080, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675935329550714, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675935329550952, "dur":33, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675935329551208, "dur":1160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675935329552564, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675935329552725, "dur":39, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675935329553207, "dur":1161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675935329554494, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675935329554770, "dur":69, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675935329555205, "dur":1230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675935329556643, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/level3" }}
+,{ "pid":12345, "tid":5, "ts":1675935329556740, "dur":42, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675935329556874, "dur":1020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/level3" }}
+,{ "pid":12345, "tid":5, "ts":1675935329557922, "dur":495, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675935329530418, "dur":678, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675935329531096, "dur":2350, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675935329533446, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1675935329533629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675935329535358, "dur":925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1675935329536434, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/config" }}
+,{ "pid":12345, "tid":6, "ts":1675935329536555, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675935329536654, "dur":360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/config" }}
+,{ "pid":12345, "tid":6, "ts":1675935329537031, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1675935329537098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675935329537141, "dur":683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1675935329538036, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675935329538262, "dur":33, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675935329538499, "dur":771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675935329539432, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675935329539596, "dur":54, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675935329540044, "dur":879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675935329541054, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675935329541306, "dur":73, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675935329541558, "dur":925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675935329542652, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675935329542932, "dur":86, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675935329543448, "dur":1194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675935329544655, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675935329544732, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675935329544743, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675935329545951, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675935329546120, "dur":91, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675935329546721, "dur":1407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675935329548455, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675935329548662, "dur":52, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675935329549000, "dur":1888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675935329551051, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675935329551209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675935329551217, "dur":770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675935329552177, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675935329552368, "dur":73, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675935329552860, "dur":1103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675935329553977, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675935329554057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675935329554065, "dur":872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675935329555121, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1675935329555214, "dur":35, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675935329555380, "dur":559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1675935329555951, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1675935329555963, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675935329556382, "dur":716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1675935329557110, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1675935329557125, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675935329557151, "dur":690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1675935329557858, "dur":550, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675935329530421, "dur":682, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675935329531104, "dur":2347, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675935329533451, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1675935329533637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675935329535371, "dur":779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1675935329536310, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1675935329536420, "dur":27, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675935329536692, "dur":526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1675935329537234, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS.x86_64" }}
+,{ "pid":12345, "tid":7, "ts":1675935329537253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675935329537262, "dur":707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS.x86_64" }}
+,{ "pid":12345, "tid":7, "ts":1675935329538155, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675935329538407, "dur":27, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675935329538501, "dur":1146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675935329539843, "dur":2216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675935329542063, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675935329542069, "dur":1021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675935329543252, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675935329543405, "dur":39, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675935329543511, "dur":994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675935329544521, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675935329544757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675935329544764, "dur":1100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675935329546031, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675935329546292, "dur":55, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675935329546804, "dur":1394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675935329548496, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675935329548729, "dur":45, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675935329548932, "dur":1285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675935329550501, "dur":431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/AstarPathfindingProject.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675935329550936, "dur":32, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675935329551212, "dur":897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/AstarPathfindingProject.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675935329552299, "dur":408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675935329552710, "dur":49, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675935329552877, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675935329553958, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675935329554038, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675935329554045, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675935329555178, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1675935329555249, "dur":109, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675935329555584, "dur":915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1675935329556717, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1675935329556840, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675935329557096, "dur":787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1675935329557909, "dur":509, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675935329530489, "dur":623, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675935329531112, "dur":2340, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675935329533452, "dur":671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1675935329534127, "dur":69, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675935329535366, "dur":803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1675935329536347, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1675935329536463, "dur":52, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675935329536697, "dur":741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1675935329537711, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675935329538031, "dur":71, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675935329538311, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675935329539420, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675935329539569, "dur":64, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675935329540095, "dur":1034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675935329541292, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675935329541478, "dur":30, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675935329541580, "dur":627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675935329542219, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675935329542286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675935329542294, "dur":1040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675935329543465, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675935329543631, "dur":84, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675935329543787, "dur":1513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675935329545520, "dur":722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675935329546246, "dur":67, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675935329546785, "dur":1389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675935329548489, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675935329548737, "dur":38, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675935329548934, "dur":706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675935329549657, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675935329549760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675935329549767, "dur":735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675935329550792, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675935329551016, "dur":94, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675935329551216, "dur":690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675935329552067, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675935329552257, "dur":51, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675935329552854, "dur":701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675935329553568, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675935329553663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675935329553669, "dur":988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675935329554837, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675935329555106, "dur":19, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675935329555511, "dur":1098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675935329556731, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1675935329556876, "dur":32, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675935329556916, "dur":1251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1675935329558218, "dur":217, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675935329530491, "dur":630, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675935329531121, "dur":2331, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675935329533453, "dur":665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1675935329534121, "dur":64, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675935329535383, "dur":543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1675935329535943, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1675935329535997, "dur":38, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675935329536794, "dur":544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1675935329537357, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675935329537429, "dur":61, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675935329538381, "dur":1297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675935329539898, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675935329540074, "dur":44, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675935329540257, "dur":866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675935329541267, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675935329541479, "dur":30, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675935329541619, "dur":593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675935329542225, "dur":1623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675935329543852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675935329543860, "dur":779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675935329544650, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675935329544735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675935329544744, "dur":838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675935329545770, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675935329546010, "dur":38, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675935329546517, "dur":1222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675935329548074, "dur":449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675935329548526, "dur":67, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675935329548994, "dur":876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675935329549887, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675935329549909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675935329549917, "dur":1073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675935329551189, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675935329551520, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675935329551527, "dur":1108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675935329552886, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675935329553059, "dur":27, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675935329553159, "dur":1201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675935329554509, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675935329554711, "dur":40, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675935329555162, "dur":1144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675935329556533, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/level2" }}
+,{ "pid":12345, "tid":9, "ts":1675935329556718, "dur":29, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675935329556875, "dur":1062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/level2" }}
+,{ "pid":12345, "tid":9, "ts":1675935329558127, "dur":313, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675935329530499, "dur":630, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675935329531130, "dur":2324, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675935329533454, "dur":734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1675935329534190, "dur":42, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675935329535436, "dur":501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1675935329535951, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1675935329536030, "dur":43, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675935329536816, "dur":887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1675935329537933, "dur":420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675935329538357, "dur":31, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675935329538506, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675935329539834, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675935329540004, "dur":34, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675935329540153, "dur":966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675935329541275, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675935329541467, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675935329541555, "dur":1035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675935329542729, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675935329543007, "dur":64, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675935329543449, "dur":900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675935329544361, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675935329544512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675935329544520, "dur":936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675935329545668, "dur":1057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675935329546760, "dur":36, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675935329547156, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675935329548769, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675935329548960, "dur":41, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675935329549011, "dur":899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675935329549922, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675935329550018, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675935329550084, "dur":1046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675935329551407, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675935329551635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675935329551643, "dur":811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675935329552640, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675935329552880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675935329553098, "dur":1168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675935329554433, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675935329554632, "dur":36, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675935329555103, "dur":937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675935329556231, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":10, "ts":1675935329556415, "dur":72, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675935329556707, "dur":705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":10, "ts":1675935329557424, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":10, "ts":1675935329557439, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675935329557505, "dur":746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":10, "ts":1675935329558258, "dur":181, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675935329530500, "dur":634, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675935329531134, "dur":2323, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675935329533457, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1675935329533572, "dur":43, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675935329535406, "dur":739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1675935329536302, "dur":418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1675935329536723, "dur":37, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675935329536930, "dur":879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1675935329538017, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675935329538246, "dur":41, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675935329538431, "dur":931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675935329539501, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675935329539887, "dur":45, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675935329540104, "dur":1109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675935329541374, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675935329541488, "dur":48, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675935329541743, "dur":1453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675935329543333, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675935329543539, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675935329543552, "dur":1710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675935329545477, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675935329545668, "dur":53, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675935329545857, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675935329547170, "dur":3068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675935329550242, "dur":30, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675935329550951, "dur":1054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675935329552162, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675935329552382, "dur":77, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675935329552936, "dur":845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675935329553793, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675935329553974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675935329553983, "dur":739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675935329554907, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":11, "ts":1675935329555105, "dur":24, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675935329555578, "dur":510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":11, "ts":1675935329556320, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":11, "ts":1675935329556485, "dur":87, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675935329556706, "dur":846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":11, "ts":1675935329557567, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":11, "ts":1675935329557605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675935329557611, "dur":744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":11, "ts":1675935329558365, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":11, "ts":1675935329558366, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675935329530511, "dur":627, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675935329531138, "dur":2329, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675935329533468, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1675935329533634, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675935329535396, "dur":631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1675935329536155, "dur":920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1675935329537118, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675935329537128, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1675935329538203, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675935329538603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675935329538610, "dur":1323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675935329540068, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675935329540219, "dur":36, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675935329540264, "dur":1002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675935329541445, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675935329541596, "dur":21, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675935329541745, "dur":865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675935329542852, "dur":359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675935329543249, "dur":29, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675935329543509, "dur":924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675935329544477, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675935329544659, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675935329545087, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675935329546346, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675935329546499, "dur":61, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675935329547107, "dur":1504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675935329548788, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675935329548968, "dur":59, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675935329549082, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675935329550286, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675935329550621, "dur":61, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675935329551168, "dur":1307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675935329552652, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675935329552863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675935329552871, "dur":708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675935329553592, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675935329553706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675935329553714, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675935329554857, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Plugins/lib_burst_generated.so" }}
+,{ "pid":12345, "tid":12, "ts":1675935329554960, "dur":51, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675935329555736, "dur":733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/Plugins/lib_burst_generated.so" }}
+,{ "pid":12345, "tid":12, "ts":1675935329556684, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1675935329556768, "dur":44, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675935329557063, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/anthony_leclercq/Documents/PLI/pli/Builds/Linux/IRAE_LUCIS_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1675935329558048, "dur":374, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675935329566335, "dur":1269, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1675935329571973, "dur": 785, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675935329571456, "dur": 1312, "ph": "X", "name": "Write chrome-trace events", "args": {} },
